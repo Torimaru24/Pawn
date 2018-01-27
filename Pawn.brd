@@ -907,28 +907,28 @@ Takuo Sawada&lt;br&gt;
 <class number="0" name="default" width="0.381" drill="0">
 </class>
 </classes>
-<designrules name="formita">
+<designrules name="formitaminimum">
 <description language="ja">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-Design rules recommended for Mita laboratry cutting machine</description>
+Design Rules must be satisfied for Mita Laboratry cutting machine</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm"/>
 <param name="mtIsolate" value="1.5011mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
-<param name="mdWireWire" value="0.3mm"/>
-<param name="mdWirePad" value="0.3mm"/>
-<param name="mdWireVia" value="0.3mm"/>
-<param name="mdPadPad" value="0.3mm"/>
-<param name="mdPadVia" value="0.3mm"/>
-<param name="mdViaVia" value="0.3mm"/>
-<param name="mdSmdPad" value="8mil"/>
-<param name="mdSmdVia" value="8mil"/>
-<param name="mdSmdSmd" value="8mil"/>
+<param name="mdWireWire" value="0.2007mm"/>
+<param name="mdWirePad" value="0.2007mm"/>
+<param name="mdWireVia" value="0.2007mm"/>
+<param name="mdPadPad" value="0.2007mm"/>
+<param name="mdPadVia" value="0.2007mm"/>
+<param name="mdViaVia" value="0.2007mm"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="8mil"/>
-<param name="mdDrill" value="8mil"/>
+<param name="mdCopperDimension" value="0mil"/>
+<param name="mdDrill" value="1mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="10mil"/>
+<param name="msWidth" value="5mil"/>
 <param name="msDrill" value="0.5994mm"/>
 <param name="msMicroVia" value="9.9898mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
@@ -972,7 +972,7 @@ Design rules recommended for Mita laboratry cutting machine</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkAngle" value="1"/>
+<param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
