@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3453,12 +3453,12 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="CON2" library="Connector_Robotech" deviceset="MTDRV" device="-A"/>
 <part name="CON4" library="Connector_Robotech" deviceset="D-3500-4" device=""/>
 <part name="P+9" library="Supply_Robotech" deviceset="+5V" device=""/>
-<part name="R2" library="Passive_Robotech" deviceset="R" device="-2012"/>
-<part name="R3" library="Passive_Robotech" deviceset="R" device="-2012"/>
-<part name="R4" library="Passive_Robotech" deviceset="R" device="-2012"/>
-<part name="R5" library="Passive_Robotech" deviceset="R" device="-2012"/>
-<part name="C2" library="Passive_Robotech" deviceset="C" device="-2012"/>
-<part name="C11" library="Passive_Robotech" deviceset="C" device="-2012"/>
+<part name="R2" library="Passive_Robotech" deviceset="R" device="-2012" value="10k"/>
+<part name="R3" library="Passive_Robotech" deviceset="R" device="-2012" value="10k"/>
+<part name="R4" library="Passive_Robotech" deviceset="R" device="-2012" value="1k"/>
+<part name="R5" library="Passive_Robotech" deviceset="R" device="-2012" value="1k"/>
+<part name="C2" library="Passive_Robotech" deviceset="C" device="-2012" value="1n"/>
+<part name="C11" library="Passive_Robotech" deviceset="C" device="-2012" value="1n"/>
 <part name="SUPPLY1" library="Supply_Robotech" deviceset="GND" device=""/>
 <part name="IC2" library="IC_Robotech" deviceset="7W14F" device="U"/>
 <part name="CON5" library="Connector_Robotech" deviceset="MOLEX-5251-03" device="-A"/>
@@ -3472,9 +3472,9 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="SUPPLY14" library="Supply_Robotech" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="Supply_Robotech" deviceset="GND" device=""/>
 <part name="P+13" library="Supply_Robotech" deviceset="+5V" device=""/>
-<part name="R8" library="Passive_Robotech" deviceset="R" device="-2012"/>
-<part name="R9" library="Passive_Robotech" deviceset="R" device="-2012"/>
-<part name="C17" library="Passive_Robotech" deviceset="C" device="-2012"/>
+<part name="R8" library="Passive_Robotech" deviceset="R" device="-2012" value="10k"/>
+<part name="R9" library="Passive_Robotech" deviceset="R" device="-2012" value="10k"/>
+<part name="C17" library="Passive_Robotech" deviceset="C" device="-2012" value="0.1u"/>
 <part name="SUPPLY16" library="Supply_Robotech" deviceset="GND" device=""/>
 <part name="P+14" library="Supply_Robotech" deviceset="+5V" device=""/>
 <part name="SUPPLY17" library="Supply_Robotech" deviceset="GND" device=""/>
@@ -3504,6 +3504,8 @@ ADC*1</text>
 PA1-15  PB0-15  PC0-12  PD0-15</text>
 <text x="469.9" y="-45.72" size="1.778" layer="91">NOかNCに注意！</text>
 <text x="492.76" y="127" size="1.778" layer="91">Arduino用USART2</text>
+<text x="236.22" y="106.68" size="1.778" layer="91">ENC TIM2(CH1,CH2)
+MD TIM5(CH1)</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="58.42" y="-40.64"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -972,11 +972,10 @@ Design rules recommended for Mita laboratry cutting machine</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
-<param name="checkStop" value="0"/>
-<param name="checkValues" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -1109,20 +1108,20 @@ Design rules recommended for Mita laboratry cutting machine</description>
 <element name="C9" library="Passive_Robotech" package="2012-C" value="4.7uF" x="38.82" y="38.06" rot="MR90"/>
 <element name="CON2" library="Connector_Robotech" package="5251-05-A" value="MTDRV-A" x="77" y="21" rot="R270"/>
 <element name="CON4" library="Connector_Robotech" package="D3500D-4-HORIZONTAL" value="D-3500-4" x="4" y="14"/>
-<element name="R2" library="Passive_Robotech" package="2012-R" value="" x="-2" y="11" rot="MR180"/>
-<element name="R3" library="Passive_Robotech" package="2012-R" value="" x="11" y="15" rot="MR90"/>
-<element name="R4" library="Passive_Robotech" package="2012-R" value="" x="10" y="9" rot="MR180"/>
-<element name="R5" library="Passive_Robotech" package="2012-R" value="" x="15" y="15" rot="MR180"/>
-<element name="C2" library="Passive_Robotech" package="2012-C" value="" x="14" y="11" rot="MR270"/>
-<element name="C11" library="Passive_Robotech" package="2012-C" value="" x="20" y="15" rot="MR90"/>
+<element name="R2" library="Passive_Robotech" package="2012-R" value="10k" x="-2" y="11" rot="MR180"/>
+<element name="R3" library="Passive_Robotech" package="2012-R" value="10k" x="11" y="15" rot="MR90"/>
+<element name="R4" library="Passive_Robotech" package="2012-R" value="1k" x="10" y="9" rot="MR180"/>
+<element name="R5" library="Passive_Robotech" package="2012-R" value="1k" x="15" y="15" rot="MR180"/>
+<element name="C2" library="Passive_Robotech" package="2012-C" value="1n" x="14" y="11" rot="MR270"/>
+<element name="C11" library="Passive_Robotech" package="2012-C" value="1n" x="20" y="15" rot="MR90"/>
 <element name="IC2" library="IC_Robotech" package="MSOP8" value="7W14FU" x="23" y="12" rot="MR270"/>
 <element name="CON5" library="Connector_Robotech" package="5251-03-A" value="MOLEX-5251-03-A" x="26" y="3" rot="R180"/>
 <element name="CON6" library="Connector_Robotech" package="5251-03-A" value="MOLEX-5251-03-A" x="16" y="3" rot="R180"/>
 <element name="D2" library="Diode_Robotech" package="LED5" value="LED-5" x="77" y="10" rot="R270"/>
 <element name="R6" library="Passive_Robotech" package="2012-R" value="1kΩ" x="75" y="9" rot="MR270"/>
-<element name="R8" library="Passive_Robotech" package="2012-R" value="" x="10" y="5" rot="MR180"/>
-<element name="R9" library="Passive_Robotech" package="2012-R" value="" x="17" y="6" rot="MR180"/>
-<element name="C17" library="Passive_Robotech" package="2012-C" value="" x="21" y="5" rot="MR270"/>
+<element name="R8" library="Passive_Robotech" package="2012-R" value="10k" x="10" y="5" rot="MR180"/>
+<element name="R9" library="Passive_Robotech" package="2012-R" value="10k" x="17" y="6" rot="MR180"/>
+<element name="C17" library="Passive_Robotech" package="2012-C" value="0.1u" x="21" y="5" rot="MR270"/>
 <element name="CON7" library="Connector_Robotech" package="5251-02-S_LONG" value="MOLEX-5251-02-S_LONG" x="77" y="32" rot="R270"/>
 <element name="U$2" library="Document_Robotech" package="HOLE_3.2" value="" x="-7" y="3"/>
 <element name="U$3" library="Document_Robotech" package="HOLE_3.2" value="" x="77" y="3"/>
